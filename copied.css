@@ -1,5 +1,10 @@
 
-
+*{
+    box-sizing: border-box;
+}
+.carousel-inner{
+    max-width: 917px !important;
+}
 header {
     background-color: rgba(26, 10, 56, 0.53);
     color: #fff;
@@ -167,7 +172,7 @@ color: white;
   }
   .carousel-inner .boxx{
     /* display: inline-block; */
-    height: 70px;
+    /* height: 70px; */
      background-color: white;
      color: solid black;
      opacity: 50%;
